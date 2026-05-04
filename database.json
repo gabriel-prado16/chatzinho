@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "username": "prado",
+      "password": "$2b$10$u04jxjv9OWld3cG5I3M8FOEKcgRf7FHvXTmssu/Zj0faqTNWR4bxS",
+      "avatar": ""
+    },
+    {
+      "username": "prado 2",
+      "password": "$2b$10$P0dHFIrfYOQ7VHAlFzKhTeARK5qI6hk8NPzqyJ86cKW1XdYcDA.Gi",
+      "avatar": ""
+    }
+  ],
+  "messages": [
+    {
+      "from": "prado 2",
+      "to": "prado",
+      "text": "ioioi",
+      "file": null
+    },
+    {
+      "from": "prado",
+      "to": "prado 2",
+      "text": "fala pae",
+      "file": null
+    }
+  ]
+}

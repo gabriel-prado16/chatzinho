@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="login">
+
+<div class="login-box">
+<h2>Chat</h2>
+
+<input id="user" placeholder="Usuário">
+<input id="pass" type="password" placeholder="Senha">
+
+<button onclick="login()">Entrar</button>
+<button onclick="register()">Cadastrar</button>
+</div>
+
+<script>
+async function login(){
+ const res = await fetch("/login",{
+  method:"POST",
+  headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({username:user.value,password:pass.value})
+ });
+ const data = await res.json();
+ if(data.success){
+  localStorage.setItem("user",user.value);
+  window.location="chat.html";
+ } else alert("Erro");
+}
+
+async function register(){
+ const res = await fetch("/register",{
+  method:"POST",
+  headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({username:user.value,password:pass.value})
+ });
+ const data = await res.json();
+ if(data.success) alert("Criado!");
+ else alert(data.error);
+}
+</script>
+
+</body>
+</html>

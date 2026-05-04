@@ -49,20 +49,34 @@ Um chat em tempo real desenvolvido com **Node.js**, **Express** e **Socket.io**,
 ## 📁 Estrutura do projeto
 
 chat-app/
+
+
 ├── server.js
+
 ├── database.json
+
 ├── package.json
-│
+
 ├── public/
+
 │   ├── index.html
+
 │   ├── chat.html
+
 │   ├── app.js
+
 │   └── style.css
+
 │
 ├── screenshots/
+
 │   ├── tela1.png
+
 │   └── tela2.png
+
 │
+
+
 └── uploads/
 ---## 🚀 Como rodar localmente```bashgit clone https://github.com/gabriel-prado16/chatzinho.gitcd chat-appnpm installnode server.js
 Acesse:

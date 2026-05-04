@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/gabriel-prado16/chatzinho/issues"
   },
-  "homepage": "https://github.com/gabriel-prado16/chatzinho#readme"
+  "homepage": "https://github.com/gabriel-prado16/chatzinho#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "socket.io": "^4.8.3"
+  }
 }

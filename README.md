@@ -48,3 +48,36 @@ https://chatzinho.onrender.com
 ---
 
 ## 📁 Estrutura do projeto
+
+chat-app/
+│
+├── server.js
+├── database.json
+├── package.json
+│
+├── public/
+│ ├── index.html
+│ ├── chat.html
+│ ├── app.js
+│ └── style.css
+│
+├── screenshots/
+│ ├── tela1.png
+│ └── tela2.png
+│
+└── uploads/
+
+
+---
+
+## 🚀 Como rodar localmente
+
+```bash
+git clone https://github.com/gabriel-prado16/chatzinho.git
+cd chat-app
+npm install
+node server.js
+
+Depois acesse:
+
+http://localhost:3000

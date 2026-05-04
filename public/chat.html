@@ -1,30 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h3>Usuários</h3>
+        <div id="userList"></div>
+      </div>
 
-<div class="container">
+      <div class="chat">
+        <div id="messages"></div>
 
-<div class="sidebar">
-<h3>Usuários</h3>
-<div id="userList"></div>
+        <div class="input">
+          <input id="msg" placeholder="digite sua mensagem..."/>
+          <input type="file" id="meuArquivo" class="input-oculto">
+<label for="meuArquivo" class="btn-personalizado">🖇️</label>
+        <button onclick="addMsg()">Enviar</button>
 </div>
+      </div>
+    </div>
 
-<div class="chat">
-<div id="messages"></div>
-
-<div class="input">
-<input id="msg">
-<input type="file" id="file">
-</div>
-
-</div>
-
-</div>
-
-<script src="/socket.io/socket.io.js"></script>
-<script src="app.js"></script>
-</body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>

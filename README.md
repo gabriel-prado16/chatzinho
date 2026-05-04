@@ -78,9 +78,15 @@ chat-app/
 
 
 └── uploads/
----## 🚀 Como rodar localmente```bashgit clone https://github.com/gabriel-prado16/chatzinho.gitcd chat-appnpm installnode server.js
-Acesse:
-http://localhost:3000
+
+---
+
+🚀 Como rodar localmente:
+-bash
+-git clone https://github.com/gabriel-prado16/chatzinho.gitcd chat-appnpm installnode server.js
+
+-Acesse:
+-http://localhost:3000
 
 👨‍💻 Autor
 Pradooo :D

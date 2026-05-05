@@ -7,6 +7,7 @@ Um chat em tempo real desenvolvido com **Node.js**, **Express** e **Socket.io**,
 ## 🌐 Demo
 
 👉 https://chatzinho.onrender.com
+(Em Manutenção No Momento!!! 💻 🔨)
 
 ---
 
